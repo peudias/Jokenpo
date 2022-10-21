@@ -14,62 +14,71 @@ class _GameState extends State<Game> {
       appBar: AppBar(
         title: Text("JokenPo"),
       ),
-      body: Center(
-        child: Container(
-          padding: EdgeInsets.all(15),
-          width: double.infinity,
-          child: Column(
-            //mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: <Widget>[
 
-              //1) text
-              Text(
-                "App's choose:",
-                style: TextStyle(
-                  fontSize: 35,
-                  fontStyle: FontStyle.italic,
-                  color: Colors.black
-                ),
-              ),
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
 
-              //2) app's choose image
-              Image.asset(
-                "images/default.png",
-                width: 100,
-              ),
-
-              //3) text resulted
-              Text(
-                "You loose!",
-                style: TextStyle(
-                    fontSize: 35,
-                    fontStyle: FontStyle.italic,
-                    color: Colors.black
-                ),
-              ),
-
-              //4) 3 images
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: <Widget>[
-                  Image.asset(
-                      "images/paper.png",
-                      width: 100,
-                  ),
-                  Image.asset(
-                      "images/rock.png",
-                      width: 100,
-                  ),
-                  Image.asset(
-                      "images/scissor.png",
-                      width: 100,
-                  ),
-                ],
-              ),
-            ],
+        //1) text
+        Padding(
+          padding: EdgeInsets.only(top: 32, bottom: 16),
+          child: Text(
+            "App's choice:",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+                fontSize: 35,
+                fontWeight: FontWeight.bold,
+                fontStyle: FontStyle.italic,
+                color: Colors.black
+            ),
           ),
         ),
+
+
+        //2) app's choose image
+        Image.asset(
+          "images/default.png",
+          width: 125,
+        ),
+
+
+        //3) text resulted
+        Padding(
+          padding: EdgeInsets.only(top: 32, bottom: 16),
+          child: Text(
+            "Choose your move:",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+                fontSize: 35,
+                fontWeight: FontWeight.bold,
+                fontStyle: FontStyle.italic,
+                color: Colors.black
+            ),
+          ),
+        ),
+
+
+        //4) 3 images (paper, rock and scissor)
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: <Widget>[
+            Image.asset(
+              "images/paper.png",
+              width: 100,
+            ),
+            Image.asset(
+              "images/rock.png",
+              width: 100,
+            ),
+            Image.asset(
+              "images/scissor.png",
+              width: 100,
+            ),
+          ],
+        ),
+
+
+        ],
       ),
     );
   }
