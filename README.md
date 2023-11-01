@@ -20,7 +20,7 @@ Desenvolvido inicialmente para o modelo `Android`, através do `Android Studio` 
 
 <p align="center">
   
-<img src="https://" width="360" height="800">
+<img src="https://github.com/phpdias/Jokenpo/blob/main/images/init.jpg" width="360" height="800">
 
 </p>
 
@@ -28,7 +28,11 @@ Desenvolvido inicialmente para o modelo `Android`, através do `Android Studio` 
 
 <p align="center">
   
-<img src="https://" width="1000" height="800">
+<img src="https://github.com/phpdias/Jokenpo/blob/main/images/win.jpg" width="360" height="800">
+
+<img src="https://github.com/phpdias/Jokenpo/blob/main/images/lost.jpg" width="360" height="800">
+
+<img src="https://github.com/phpdias/Jokenpo/blob/main/images/tie.jpg" width="360" height="800">
 
 </p> 
 
