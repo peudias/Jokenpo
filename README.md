@@ -46,10 +46,6 @@ Este repositório apenas disponibiliza a parte essencial para que o projeto func
 
 Pode ser compilado através de um emulador android do Android Studio ou utilizar um celular que seja Android para emular o aplicativo.
 
-Futuramente pretendo upar tudo o que for necessário aqui no git, desde como exatamente executar até o projeto inteiro, com todas as pastas.
-
-
-
 # Contatos
 
 <div style="display: inline-block;">
